@@ -1,0 +1,608 @@
+.table.table-striped .minimal_cell {
+    background: none;
+    border-width: 0;
+}
+
+.loginError {
+    color: red;
+    text-align: center;
+}
+
+.bs-example{
+    font-family: sans-serif;
+    position: relative;
+    margin: 50px;
+}
+.typeahead, .tt-query, .tt-hint {
+    border: 2px solid #CCCCCC;
+    border-radius: 8px;
+    font-size: 24px;
+    height: auto;
+    line-height: 30px;
+    outline: medium none;
+    padding: 8px 12px;
+    width: auto;
+}
+.typeahead {
+    background-color: #FFFFFF;
+    height: auto;
+}
+.typeahead:focus {
+    border: 2px solid #0097CF;
+}
+.tt-query {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    height: auto;
+}
+.tt-hint {
+    color: #999999;
+    height: auto;
+}
+.tt-dropdown-menu {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 12px;
+    padding: 8px 0;
+    width: 422px;
+}
+.tt-suggestion {
+    font-size: 24px;
+       line-height: 24px;
+    padding: 3px 20px;
+}
+.tt-suggestion.tt-is-under-cursor {
+    background-color: #0097CF;
+    color: #FFFFFF;
+}
+.tt-suggestion p {
+    margin: 0;
+}
+.twitter-typehead {
+    float: left;
+}
+.typeahead > .tt-query {
+    height: auto;
+}
+
+/*datatables*/
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
+.btn-size{
+    width: 15%;
+    font-size:1.1em;
+    margin: 2%;
+}
+#import-zastupnik{
+    margin-right: 4%;
+}
+.table th {
+    text-align: center;
+}
+.table td {
+    text-align: left;
+}
+.table {
+    width: 100% !important;
+}
+.tab-content .dataTables_wrapper{
+    margin-top: 3%;
+}
+#referenti_filter label{
+    float:right !important;
+}
+#korisnik_filter label{
+    float:right !important;
+}
+#sviObjekti_filter label {
+    float:right !important;
+}
+#korisniciObradjeni_filter label{
+    float:right !important;
+}
+#zastupniciTable_filter  label{
+    float:right !important;
+}
+#objektiTable_filter label{
+    float:right !important;
+}
+#zapisniciTable_filter label{
+    float:right !important;
+}
+#usrs_filter label{
+    float:right !important;
+}
+#korisniciTable_filter label{
+    float:right !important;
+}
+.panel-title{
+    font-size: 1.3em;
+}
+.panel-heading{
+    font-size: 1.3em;
+}
+#usrs tr td:last-child{
+    width: 10%;
+}
+.pagination{
+    float:right;
+}
+.dataTables_info{
+    margin:20px 0;
+}
+.table-bordered > thead > tr > th {
+    vertical-align: middle;
+}
+td.text-align-center {
+    text-align: center;
+}
+th.sorting_asc {
+    background-image:url("../../images/sort_asc.png");
+    background-repeat:no-repeat;background-position:center right
+}
+th.sorting_desc {
+    background-image:url("../../images/sort_desc.png");
+    background-repeat:no-repeat;background-position:center right
+}
+thead .sorting {
+    background-image:url("../../images/sort_both.png");
+    background-repeat:no-repeat;background-position:center right
+}
+#referenti td:nth-last-child(-n+3){
+    text-align: center;
+}
+#korisnik td:nth-last-child(-n+3){
+    text-align: center;
+}
+tfoot {
+    display: table-header-group !important;
+}
+/*
+  stilovi za sirinu kolona
+*/
+.mesto-width{
+    width: 13%;
+}
+.kvadratura-width{
+    width: 10%;
+}
+.opcije-width{
+    width: 10%;
+}
+.status-width{
+    width: 10%;
+}
+/*.table-responsive
+{
+    overflow-x: auto;
+}*/
+h2.accordion {
+    background-color: #e7e7e7;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    margin: 0;
+    border-bottom: 1px solid #cccccc;
+}
+h2.accordion.active, h2.accordion:hover {
+    background-color: #ddd;
+}
+div.panelAccordion {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.spacing {
+    margin-right: 5px;
+}
+.tagDiv {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.oneTag {
+    margin-right: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+/*istorija razmene trade-history-component*/
+.history-container {
+    display: flex;
+}
+.history-title {
+    margin: 24px 0 15px 0;
+    font-weight: 600;
+    font-size: 35px;
+    color: #3998AA;
+}
+.history-pool {
+    padding: 0;
+}
+.history-pool-wrapper {
+    padding: 30px 0;
+    background-color: #f5f5f5;
+}
+.left-history-pool {
+    border-right: 3px solid #375168;
+}
+.history-pool .header {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #375168;
+    padding: 0 8px 8px 8px;
+    border-bottom: 3px solid #375168;
+    background-color: white;
+}
+.history-pool .header>span {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    font-size: 1.25em;
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: flex-end;
+    align-self: flex-end;
+}
+.history-pool .header>div {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.history-pool:first-child .header>div {
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+.history-pool .header>div>a {
+    color: #375168;
+}
+.history-pool .header>div>a:hover {
+    color: #d7d7d7;
+    text-decoration: none;
+}
+.left-history-pool .header>div>img {
+    margin-right: 16px;
+}
+.right-history-pool .header>div>img {
+    margin-left: 16px;
+}
+.message-left {
+    padding-left: 0
+}
+.message-right {
+    padding-right: 0;
+}
+.action-button{
+    position: absolute;
+    width: 20%;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
+}
+.action-button i {
+    color: #399aac;
+    margin-left: 0;
+    margin-right: 16px;
+}
+a.action-button:hover i {
+    color: #ffffff;
+}
+/*kraj istorija razmene trade-history-component*/
+/*compact-trade-offer.component*/
+h4 {
+    font-weight: bold;
+}
+.offer-container {
+    width: 100%;
+    margin: 8px 0 0;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+.offer-container img {
+    margin: 0 12px 0 0;
+}
+.compact-offer-content {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+.offer-container .fa-arrows,
+.offer-container .fa-close{
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+}
+.offer-title {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+/*kraj compact-trade-offer.component*/
+/*trade-history-message.component*/
+.talktext {
+    padding: 1em;
+    text-align: left;
+    line-height: 1.5em;
+}
+.talktext p {
+    /* remove webkit p margins */
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+.timeline-message {
+    /*margin: 0;*/
+}
+.timeline-message {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.timeline-message-reverse{
+    -webkit-flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+.timeline-date, .timeline-sign, .timeline-date-reverse {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+.timeline-date {
+    padding: 0;
+    z-index: 1;
+    text-align: right;
+    padding-right: 15px;
+}
+.timeline-message-reverse > .timeline-date  {
+    margin-left: 0;
+}
+.timeline-sign {
+    width: auto;
+    padding: 0;
+    margin-top: -10px;
+}
+.history-message-content {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    margin-right: 15px;
+}
+.timeline-message-reverse > .history-message-content {
+    margin-left: 15px;
+    margin-right: 0;
+}
+.history-message-content .history-message-info{
+    text-align: left;
+}
+.deleted-offer .history-message-content .offer-container{
+    background-color: red !important;
+}
+.trade-offer-details {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.timeline-message > .talk-bubble {
+    margin: 25px 0;
+}
+.timeline-message > .talk-bubble:after {
+    content: none;
+}
+.timeline-date.message-right {
+    position: absolute;
+    right: 42px;
+    bottom: 5px;
+}
+.timeline-message.message-right {
+    margin-right: 42px;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.timeline-message.message-left {
+    margin-left: 38px;
+}
+.timeline-date.message-left {
+    position: absolute;
+    left: 42px;
+    bottom: 5px;
+    padding-left: 15px;
+    padding-right: 0;
+}
+/*kraj trade-history-message.component*/
+/*dodao sta fali*/
+.border-green {
+    border: 1px solid #3998aa;;
+}
+.color-green {
+    color: #3998aa;
+}
+.border-red {
+    border: 1px solid #d9534f;
+}
+.color-red {
+    color: #d9534f;
+}
+.row-bottom-margin {
+    margin-bottom: 30px;
+}
+.page-title-wrapper {
+    position: relative;
+}
+a.action-button:hover {
+    background-color: #399aac;
+    color: #fff;
+    text-decoration: none;
+}
+.action-button-new {
+    border: 1px solid #399aac;
+    border-radius: 10px;
+    padding: 8px 16px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#piechart_3d {
+    margin-left: 27%;
+}

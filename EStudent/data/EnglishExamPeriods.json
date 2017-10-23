@@ -1,0 +1,17 @@
+{
+  "sProcessing":   "Porcessing...",
+  "sLengthMenu":   "Showing _MENU_ exam periods",
+  "sZeroRecords":  "No exam periods where found",
+  "sInfo":         "Showing _START_ to _END_ from _TOTAL_ exam periods",
+  "sInfoEmpty":    "Showing 0 to 0 from 0 exam periods",
+  "sInfoFiltered": "(Filtered from _MAX_ exam periods)",
+  "sInfoPostFix":  "",
+  "sSearch":       "Search:",
+  "sUrl":          "",
+  "oPaginate": {
+    "sFirst":    "First",
+    "sPrevious": "Previous",
+    "sNext":     "Next",
+    "sLast":     "Last"
+  }
+}

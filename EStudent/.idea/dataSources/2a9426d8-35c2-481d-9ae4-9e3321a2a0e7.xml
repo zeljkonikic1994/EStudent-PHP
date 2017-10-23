@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="MySQL - mixaIteh@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="mixaiteh">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="blog"/>
+    <schema id="3" name="infom"/>
+    <schema id="4" name="information_schema"/>
+    <schema id="5" name="iteh1"/>
+    <schema id="6" name="max_plus"/>
+    <schema id="7" name="mysql"/>
+    <schema id="8" name="performance_schema"/>
+    <schema id="9" name="phptodo"/>
+    <schema id="10" name="pois"/>
+    <schema id="11" name="popisprocedura"/>
+    <schema id="12" name="proba"/>
+    <schema id="13" name="rish"/>
+    <schema id="14" name="sys"/>
+    <table id="15" parent="1" name="exam"/>
+    <table id="16" parent="1" name="grade"/>
+    <table id="17" parent="1" name="professor"/>
+    <table id="18" parent="1" name="student"/>
+    <column id="19" parent="15" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="20" parent="15" name="name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <column id="21" parent="15" name="professor_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <index id="22" parent="15" name="profFk">
+      <columns>professor_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="23" parent="15" name="PRIMARY">
+      <columns>ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="24" parent="16" name="professor_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="25" parent="16" name="student_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="26" parent="16" name="exam_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="27" parent="16" name="grade">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="28" parent="16" name="id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <index id="29" parent="16" name="classPK">
+      <columns>exam_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <index id="30" parent="16" name="studentPK">
+      <columns>student_id</columns>
+      <desc-columns></desc-columns>
+    </index>
+    <key id="31" parent="16" name="PRIMARY">
+      <columns>id</columns>
+      <primary>1</primary>
+    </key>
+    <column id="32" parent="17" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="33" parent="17" name="name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <column id="34" parent="17" name="pass">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <key id="35" parent="17" name="PRIMARY">
+      <columns>ID</columns>
+      <primary>1</primary>
+    </key>
+    <column id="36" parent="18" name="ID">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="37" parent="18" name="name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(150)|0</data-type>
+    </column>
+    <column id="38" parent="18" name="pass">
+      <data-type>varchar(100)|0</data-type>
+    </column>
+    <key id="39" parent="18" name="PRIMARY">
+      <columns>ID</columns>
+      <primary>1</primary>
+    </key>
+  </database-model>
+</dataSource>
